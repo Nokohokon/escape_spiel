@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+
+
 
 export default function Home() {
   return (
@@ -22,28 +25,27 @@ export default function Home() {
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Klicken Sie hier {" "}
-            <a
-              href="/CODE0"
+            <Link
+              href="/start"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
               hier
-            </a>{" "}
+            </Link>{" "}
             für den Start des Escape-Spiels oder {" "}
-            <a
+            <Link
               href="/explanations"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
               auf diesen Link
-            </a>{" "}
+            </Link>{" "}
             um zu einer Erklärungsübersicht zu gelangen.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-lg font-medium sm:flex-row">
           <a
             className="flex h-16 w-full text-center items-center justify-center gap-2 rounded-full bg-foreground px-8 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[220px]"
-            href="/download"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/downloads/Herr%20Weissglut%20-%20Escape%20Spiel.zip"
+            download="Herr Weissglut - Escape Spiel.zip"
           >
 
             Spieldateien herunterladen
