@@ -9,10 +9,10 @@ export type Puzzle = {
 
 
 export const puzzles: Puzzle[] = [
-  { title: "Aufgabe 1", body: "…", solution: "52312667423911" },
+  { title: "Aufgabe 1", body: "…", solution: "5631266742391" },
   { title: "Aufgabe 2", body: "Text zu Rätsel 2", solution: "42" },
   { title: "Aufgabe 3", body: "Text zu Rätsel 3", solution: "2413" },
-  { title: "Aufgabe 4", body: "Text zu Rätsel 4", solution: "106215" },
+  { title: "Aufgabe 4", body: "Text zu Rätsel 4", solution: "17572" },
   { title: "Aufgabe 5", body: "Text zu Rätsel 5", solution: "2112" },
   { title: "Aufgabe 6", body: "Text zu Rätsel 6", solution: "2124" },
   { title: "Aufgabe 7", body: "Text zu Rätsel 7", solution: "2" },
